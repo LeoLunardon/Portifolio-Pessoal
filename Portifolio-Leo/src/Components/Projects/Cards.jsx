@@ -5,17 +5,17 @@ const Cards = (props) => {
   const { url, title, description, urlDeploy, urlGit } = props;
 
   return (
-    <div className="max-w-md bg-white border  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="max-w-sm bg-gray-900 border text-gray-200 mb-40  border-gray-200 rounded-lg shadow ">
       <a href={url} target="_blank" rel="noopener noreferrer">
         <img className="rounded-t-lg" src={url} alt="" />
       </a>
-      <div className="p-5">
+      <div className="p-4">
         <a href="#" target="_blank" rel="noopener noreferrer">
-          <h5 className="mb-2 font-style text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-2 font-style text-2xl font-bold tracking-tight dark:text-white">
             {title}
           </h5>
         </a>
-        <p className="mb-3 font-style font-normal text-gray-700 dark:text-gray-400">
+        <p className="mb-3 font-style font-normal text-gray-200 dark:text-gray-400">
           {description}
         </p>
         <a
@@ -45,7 +45,7 @@ const Cards = (props) => {
           href={urlGit}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center px-3 py-2 text-xl font-medium text-center text-white bg-gray-800 rounded-lg hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-600 dark:bg-gray-700 dark:hover:bg-gray-800 dark:focus:ring-gray-900 ml-2"
+          className="inline-flex items-center px-3 py-2 text-xl font-medium text-center text-white bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-600 dark:bg-gray-700 dark:hover:bg-gray-800 dark:focus:ring-gray-900 ml-2"
         >
           GitHub
           <svg
@@ -60,7 +60,8 @@ const Cards = (props) => {
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
-              d="M9 19s-1.5.5-3 1v-1c0-1 .5-1 1-1s1 .5 2 1 2 1 4 1 2-1 4-1 1 .5 1 1v1c-1.5-.5-3-1-3-1s-1.5-.5-3-1v-1c0-1 .5-1 1-1s1 .5 2 1 2 1 4 1 2-1 4-1 1 .5 1 1v1c-1.5-.5-3-1-3-1s-1.5-.5-3-1v-1c0-1 .5-1 1-1s1 .5 2 1 2 1 4 1 2-1 4-1 1 .5 1 1v1c-1.5-.5-3-1-3-1s-1.5-.5-3-1v-1c0-1 .5-1 1-1s1 .5 2 1 2 1 4 1 2-1 4-1 1 .5 1 1v1"></path>
+              d="M9 19s-1.5.5-3 1v-1c0-1 .5-1 1-1s1 .5 2 1 2 1 4 1 2-1 4-1 1 .5 1 1v1c-1.5-.5-3-1-3-1s-1.5-.5-3-1v-1c0-1 .5-1 1-1s1 .5 2 1 2 1 4 1 2-1 4-1 1 .5 1 1v1c-1.5-.5-3-1-3-1s-1.5-.5-3-1v-1c0-1 .5-1 1-1s1 .5 2 1 2 1 4 1 2-1 4-1 1 .5 1 1v1c-1.5-.5-3-1-3-1s-1.5-.5-3-1v-1c0-1 .5-1 1-1s1 .5 2 1 2 1 4 1 2-1 4-1 1 .5 1 1v1"
+            ></path>
           </svg>
         </a>
       </div>

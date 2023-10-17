@@ -35,7 +35,7 @@ const Badges = () => {
   ];
 
   return (
-    <div className={`mt-36 flex flex-wrap w-72 2xl:w-96 gap-2 ${isAnimated ? "animate-move" : ""}`}>
+    <div className={`flex flex-wrap w-fit mx-auto gap-2 ${isAnimated ? "animate-move" : ""}`}>
       {badges.map((badge, index) => (
         <span
           key={index}

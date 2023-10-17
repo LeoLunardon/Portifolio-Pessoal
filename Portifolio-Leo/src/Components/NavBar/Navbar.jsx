@@ -4,7 +4,7 @@ const Navbar = () => {
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 800) {
+      if (window.scrollY > 750) {
         setScroll(true);
       } else {
         setScroll(false);
@@ -17,7 +17,7 @@ const Navbar = () => {
   }, []);
   return (
     <nav
-      className={`fixed top-0 w-full z-50 p-6 text-2xl transition duration-300 ${
+      className={`fixed top-0 w-full z-50 p-4 text-2xl transition duration-300 ${
         scroll ? "bg-black bg-opacity-80" : "bg-transparent"
       }`}
     >

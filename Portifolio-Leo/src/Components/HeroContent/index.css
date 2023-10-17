@@ -3,7 +3,7 @@
       transform: translateX(0);
     }
     50% {
-      transform: translateX(80px); 
+      transform: translateX(10px); 
     }
     100% {
       transform: translateX(0);
@@ -11,6 +11,6 @@
   }
   
   .animate-move {
-    animation: move 5s infinite; 
+    animation: move 2s infinite ease-in-out; 
   }
   
