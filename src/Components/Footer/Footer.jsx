@@ -7,10 +7,10 @@ const Contacts = () => {
         <h3 className="text-4xl mb-5 ">Navegue</h3>
         <ul className="text-center ">
           <a href="#inicio">
-            <li className="mb-5">Início</li>
+            <li className="mb-5 hover:underline">Início</li>
           </a>
           <a href="#projetos">
-            <li>Projetos</li>
+            <li className="hover:underline">Projetos</li>
           </a>
         </ul>
       </nav>
