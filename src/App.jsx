@@ -1,6 +1,5 @@
 import React from "react";
 import Badges from "./Components/HeroContent/Bagdes";
-import { TypeAnimation } from "react-type-animation";
 import "./Index.css";
 import Hero from "./Components/HeroContent/Hero";
 import About from "./Components/AboutMe/About";
