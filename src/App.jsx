@@ -1,6 +1,6 @@
 import React from "react";
+import './index.css';
 import Badges from "./Components/HeroContent/Bagdes";
-import "./Index.css";
 import Hero from "./Components/HeroContent/Hero";
 import About from "./Components/AboutMe/About";
 import Cards from "./Components/Projects/Cards";
