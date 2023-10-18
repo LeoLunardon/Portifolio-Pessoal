@@ -17,7 +17,7 @@ const Contacts = () => {
       <nav>
         <h3 className="text-4xl mb-5">Contatos</h3>
         <ul className="text-center flex flex-col gap-3">
-          <a href="/">
+          <a target={"_blank"} href="https://api.whatsapp.com/send/?phone=5541997312005&text=Olá%2C+vim+pelo+seu+portifólio...+&type=phone_number&app_absent=0">
             <li>
               <button
                 type="button"
@@ -27,7 +27,7 @@ const Contacts = () => {
               </button>
             </li>
           </a>
-          <a href="/">
+          <a href="https://github.com/LeoLunardon" target={"_blank"}>
             <li>
               <button
                 type="button"
@@ -37,7 +37,7 @@ const Contacts = () => {
               </button>
             </li>
           </a>
-          <a href="/">
+          <a target={"_blank"} href="https://www.linkedin.com/in/leonardo-lunardon-00875b1a8/">
             <li>
               <button
                 type="button"
@@ -47,7 +47,7 @@ const Contacts = () => {
               </button>
             </li>
           </a>
-          <a href="/">
+          <a target={"_blank"} href="mailto:leo.lunardon2@gmail.com">
             <li>
               <button
                 type="button"

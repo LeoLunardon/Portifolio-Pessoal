@@ -6,7 +6,7 @@ const About = () => {
       <div >
         <img
           className="w-60 h-60  border-white rounded-full border-4"
-          src="https://i.imgur.com/Xr9Bxsw.png"
+          src="https://i.imgur.com/vrBhAy7.jpg"
           alt=""
         />
       </div>

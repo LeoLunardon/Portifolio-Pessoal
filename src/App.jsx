@@ -1,14 +1,32 @@
 import React from "react";
-import './index.css';
+import "./index.css";
 import Badges from "./Components/HeroContent/Bagdes";
 import Hero from "./Components/HeroContent/Hero";
 import About from "./Components/AboutMe/About";
-import Cards from "./Components/Projects/Cards";
+import Gallery from "./Components/Projects/Gallery";
 import Footer from "./Components/Footer/Footer";
+
+const projects = [
+  {
+    url: "https://i.imgur.com/JOPKvdY.png",
+    title: "Sistema PDV",
+    description:
+      "Sistema de vendas e gestão de estoque, API criada em NodeJs + ExpressJs e MongoDB. Front-end em React e TailwindCss.",
+    urlDeploy: "https://pdv-distribuidora-rlj.vercel.app/",
+    urlGit: "https://github.com/LeoLunardon?tab=repositories",
+  },
+  {
+    url: "https://i.imgur.com/EcZidbC.png",
+    title: "Projeto em desenvolvimento",
+    description: "",
+    urlDeploy: "",
+    urlGit: "",
+  },
+];
 
 function App() {
   return (
-    <div className="flex bg-black flex-col " id="inicio" >
+    <div className="flex bg-black flex-col " id="inicio">
       <Hero />
       <div>
         <div className="flex flex-col items-center text-center justify-center w-72 mx-auto mt-60  text-white">
@@ -23,25 +41,15 @@ function App() {
           <Badges />
         </div>
       </div>
-      <div id="projetos" className="flex flex-col items-center text-center justify-center w-72 mx-auto  text-white mt-28 mb-14">
+      <div
+        id="projetos"
+        className="flex flex-col items-center text-center justify-center w-72 mx-auto  text-white mt-28 mb-10"
+      >
         <h1 className="text-4xl">Projetos</h1>
         <p>Conheça meus projetos pessoais e profissionais</p>
       </div>
       <div className="mx-auto flex gap-10">
-        <Cards
-          url="https://i.imgur.com/JOPKvdY.png"
-          title="Sistema PDV"
-          description="Sistema de vendas e gestão de estoque, API criada em NodeJs + ExpressJs e MongoDB. Front-end em React e TailwindCss."
-          urlDeploy="https://pdv-distribuidora-rlj.vercel.app/"
-          urlGit="https://github.com/Leo-Lunardon/pdv-distribuidora"
-        />
-        <Cards
-          url="https://i.imgur.com/JOPKvdY.png"
-          title="Sistema PDV"
-          description="Sistema de vendas e controle de estoque, API criada em NodeJs + ExpressJs e MongoDB. Front-end em React e TailwindCss."
-          urlDeploy="https://pdv-distribuidora-rlj.vercel.app/"
-          urlGit="https://github.com/Leo-Lunardon/pdv-distribuidora"
-        />
+        <Gallery projects={projects} />
       </div>
       <div>
         <Footer />

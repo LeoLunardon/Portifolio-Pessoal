@@ -5,17 +5,21 @@ const Cards = (props) => {
   const { url, title, description, urlDeploy, urlGit } = props;
 
   return (
-    <div className="max-w-sm bg-gray-900 border text-gray-200 mb-40  border-gray-200 rounded-lg shadow ">
+    <div className="max-w-sm bg-gray-900 border text-gray-200 mb-40 border-gray-200 rounded-lg shadow">
       <a href={url} target="_blank" rel="noopener noreferrer">
-        <img className="rounded-t-lg" src={url} alt="" />
+        <img
+          className="rounded-t-lg w-full h-60 object-cover"
+          src={url}
+          alt=""
+        />
       </a>
-      <div className="p-4">
+      <div className="py-10 px-5">
         <a href="#" target="_blank" rel="noopener noreferrer">
           <h5 className="mb-2 font-style text-2xl font-bold tracking-tight dark:text-white">
             {title}
           </h5>
         </a>
-        <p className="mb-3 font-style font-normal text-gray-200 dark:text-gray-400">
+        <p className=" pb-8 font-style font-normal text-gray-200 dark:text-gray-400">
           {description}
         </p>
         <a

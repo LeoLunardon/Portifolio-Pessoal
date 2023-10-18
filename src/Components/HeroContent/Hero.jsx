@@ -17,7 +17,7 @@ const Hero = () => {
           />
         </div>
         <div className="mt-20 text-2xl flex opacity-70 mx-auto gap-20">
-          <a href="/" className="flex items-center">
+          <a href="https://github.com/LeoLunardon" target={"_blank"} className="flex items-center">
             <button
               type="button"
               className="hover:scale-110 transition flex items-center w-40 h-10 text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg"
@@ -31,7 +31,7 @@ const Hero = () => {
               <span className="no-underline">GitHub</span>
             </button>
           </a>
-          <a href="/" className="flex items-center">
+          <a href="https://www.linkedin.com/in/leonardo-lunardon-00875b1a8/" target={"_blank"}   className="flex items-center">
             <button
               type="button"
               className="hover:scale-110 transition flex items-center w-40 h-10 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg"
