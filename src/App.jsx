@@ -18,9 +18,6 @@ const projects = [
   {
     url: "https://i.imgur.com/EcZidbC.png",
     title: "Projeto em desenvolvimento",
-    description: "",
-    urlDeploy: "",
-    urlGit: "",
   },
 ];
 
@@ -43,7 +40,7 @@ function App() {
       </div>
       <div
         id="projetos"
-        className="flex flex-col items-center text-center justify-center w-72 mx-auto  text-white mt-28 mb-10"
+        className="flex flex-col items-center text-center justify-center w-72 mx-auto  text-white mt-20 mb-10"
       >
         <h1 className="text-4xl">Projetos</h1>
         <p>Conheça meus projetos pessoais e profissionais</p>
