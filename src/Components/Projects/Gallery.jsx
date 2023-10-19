@@ -5,9 +5,9 @@ const Gallery = ({ projects }) => {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
 
   const showNextCard = () => {
-   setCurrentCardIndex ((prevIndex) =>
-     prevIndex === projects.length - 1 ? 0 : prevIndex + 1
-   );
+    setCurrentCardIndex((prevIndex) =>
+      prevIndex === projects.length - 1 ? 0 : prevIndex + 1
+    );
   };
   const showPrevCard = () => {
     setCurrentCardIndex((prevIndex) =>
@@ -16,11 +16,23 @@ const Gallery = ({ projects }) => {
   };
 
   return (
-    <div className="gallery-container">
-      <div className="flex  justify-between px-40">
-        <button className=" text-white text-7xl mr-24" onClick={showPrevCard}>&#8592;</button>
+    <div className=" relative gallery-container mb-60">
+      <div className="sm:flex justify-between sm:px-40">
         <Cards {...projects[currentCardIndex]} />
-        <button className=" text-white text-7xl ml-24" onClick={showNextCard}>&#8594;</button>
+      </div>
+      <div className="absolute top-96 pt-20 left-0 right-0 text-center pb-4">
+        <button
+          className=" text-white text-7xl inline-block mx-4"
+          onClick={showPrevCard}
+        >
+          &#8592;
+        </button>
+        <button
+          className=" text-white text-7xl inline-block mx-4"
+          onClick={showNextCard}
+        >
+          &#8594;
+        </button>
       </div>
     </div>
   );

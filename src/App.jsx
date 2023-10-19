@@ -45,7 +45,7 @@ function App() {
         <h1 className="text-4xl">Projetos</h1>
         <p>Conheça meus projetos pessoais e profissionais</p>
       </div>
-      <div className="mx-auto flex gap-10">
+      <div className="sm:mx-auto flex ">
         <Gallery projects={projects} />
       </div>
       <div>

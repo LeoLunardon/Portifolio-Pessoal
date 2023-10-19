@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
-    <div className="flex h-screen">
+    <div className="flex h-screen overflow-x-hidden">
       <div className="flex flex-col justify-center text-white mx-auto h-60 my-auto">
         <div className="border-title ">
           <h1 className="title-text ">Leonardo Lunardon</h1>
@@ -16,7 +16,7 @@ const Hero = () => {
             repeat={Infinity}
           />
         </div>
-        <div className="mt-20 text-2xl flex opacity-70 mx-auto gap-20">
+        <div className="mt-20 text-2xl flex opacity-70 mx-auto gap-5 sm:gap-20">
           <a href="https://github.com/LeoLunardon" target={"_blank"} className="flex items-center">
             <button
               type="button"

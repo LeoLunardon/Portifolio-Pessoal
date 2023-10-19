@@ -5,7 +5,7 @@ const Cards = (props) => {
   const { url, title, description, urlDeploy, urlGit } = props;
 
   return (
-    <div className="max-w-sm bg-gray-900 border text-gray-200 mb-40 border-gray-200 rounded-lg shadow">
+    <div className="w-full sm:max-w-sm bg-gray-900 border text-gray-200 mb-10 sm:mb-40 border-gray-200 rounded-lg shadow">
       <a href={url} target="_blank" rel="noopener noreferrer">
         <img
           className="rounded-t-lg w-full h-60 object-cover"
@@ -19,7 +19,7 @@ const Cards = (props) => {
             {title}
           </h5>
         </a>
-        <p className=" mb-2 font-style font-normal text-gray-200 dark:text-gray-400">
+        <p className="mb-2 font-style font-normal text-gray-200 dark:text-gray-400">
           {description}
         </p>
         {urlDeploy && (
