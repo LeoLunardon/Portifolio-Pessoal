@@ -41,6 +41,7 @@ function App() {
         <About />
         <div className="flex flex-col itens-center justify-center text-center">
           <h2 className="text-white text-3xl mb-10 ">Skills</h2>
+          <p>Conheça as tecnologias que utilizo</p>
           <Badges />
         </div>
       </div>
