@@ -32,10 +32,14 @@ const Badges = () => {
       name: "Java",
       hover: "hover:text-purple-500",
     },
+    {
+      name: "Firebase",
+      hover: "hover:text-orange-800",
+    }
   ];
 
   return (
-    <div className={`flex flex-wrap w-fit mx-auto gap-2 ${isAnimated ? "animate-move" : ""}`}>
+    <div className={`flex flex-wrap w-1/2 justify-center mx-auto gap-2 p-2 ${isAnimated ? "animate-move" : ""}`}>
       {badges.map((badge, index) => (
         <span
           key={index}

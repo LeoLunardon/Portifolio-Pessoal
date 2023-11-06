@@ -16,6 +16,14 @@ const projects = [
     urlGit: "https://github.com/LeoLunardon?tab=repositories",
   },
   {
+    url: "https://i.imgur.com/4ZxPSn6.png",
+    description:
+      "Site 'streamer' para Animes! Desenvolvido em ReactJs, Firebase e TailwindCss.",
+    urlDeploy: "https://nostalgia-animes.vercel.app/",
+    urlGit: "https://github.com/LeoLunardon/NostalgiaAnimes",
+    title: "Nostagia Animes",
+  },
+  {
     url: "https://i.imgur.com/EcZidbC.png",
     title: "Projeto em desenvolvimento",
   },
@@ -32,9 +40,7 @@ function App() {
         </div>
         <About />
         <div className="flex flex-col itens-center justify-center text-center">
-          <h2 className="text-white text-3xl mb-10 ">
-            Linguagens e frameworks que desenvolvo
-          </h2>
+          <h2 className="text-white text-3xl mb-10 ">Skills</h2>
           <Badges />
         </div>
       </div>

@@ -8,7 +8,7 @@ const Cards = (props) => {
     <div className="w-full sm:max-w-sm bg-gray-900 border text-gray-200 mb-10 sm:mb-40 border-gray-200 rounded-lg shadow">
       <a href={url} target="_blank" rel="noopener noreferrer">
         <img
-          className="rounded-t-lg w-full h-60 object-cover"
+          className="rounded-t-lg w-full h-60 "
           src={url}
           alt=""
         />
