@@ -4,10 +4,13 @@ const Contacts = () => {
   return (
     <div className="flex text-xl text-center h-80 text-white justify-around pt-10 bg-gray-950">
       <nav>
-        <h3 className="text-4xl mb-5 ">Navegue</h3>
-        <ul className="text-center ">
+        <h3 className="text-4xl mb-8 ">Navegue</h3>
+        <ul className="text-center flex flex-col gap-5 ">
           <a href="#inicio">
-            <li className="mb-5 hover:underline">Início</li>
+            <li className=" hover:underline">Início</li>
+          </a>
+          <a href="#sobremim">
+            <li className="hover:underline">Sobre-mim</li>
           </a>
           <a href="#projetos">
             <li className="hover:underline">Projetos</li>

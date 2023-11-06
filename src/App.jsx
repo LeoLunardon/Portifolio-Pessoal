@@ -34,14 +34,14 @@ function App() {
     <div className="flex bg-black flex-col " id="inicio">
       <Hero />
       <div>
-        <div className="flex flex-col items-center text-center justify-center w-72 mx-auto mt-60  text-white">
+        <div id="sobremim" className="flex flex-col items-center text-center justify-center w-72 mx-auto mt-60  text-white">
           <h1 className="text-4xl">Sobre mim</h1>
           <p>Conheça um pouco mais sobre seu novo desenvolvedor</p>
         </div>
         <About />
         <div className="flex flex-col itens-center justify-center text-center">
-          <h2 className="text-white text-3xl mb-10 ">Skills</h2>
-          <p>Conheça as tecnologias que utilizo</p>
+          <h2 className="text-white text-3xl ">Skills</h2>
+          <p className="text-white inline-block mb-5 ">Conheça as tecnologias que utilizo</p>
           <Badges />
         </div>
       </div>
