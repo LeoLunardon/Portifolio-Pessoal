@@ -17,11 +17,11 @@ const projects = [
   },
   {
     url: "https://i.imgur.com/4ZxPSn6.png",
+    title: "Nostagia Animes",
     description:
       "Site 'streamer' para Animes! Desenvolvido em ReactJs, Firebase e TailwindCss.",
     urlDeploy: "https://nostalgia-animes.vercel.app/",
     urlGit: "https://github.com/LeoLunardon/NostalgiaAnimes",
-    title: "Nostagia Animes",
   },
   {
     url: "https://i.imgur.com/EcZidbC.png",
